@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Binary Converter & Encryptor</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        textarea { width: 100%; height: 100px; }
+        button { margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Text to Binary Converter & Encryptor</h1>
+    <textarea id="plaintext" placeholder="Enter your text here..."></textarea>
+    <button onclick="convertToBinary()">Convert to Binary</button>
+    <button onclick="encryptText()">Encrypt</button>
+    <button onclick="decryptText()">Decrypt</button>
+    
+    <h2>Output</h2>
+    <p><strong>Binary:</strong> <span id="binaryOutput"></span></p>
+    <p><strong>Encrypted:</strong> <span id="encryptedOutput"></span></p>
+    <p><strong>Decrypted:</strong> <span id="decryptedOutput"></span></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
